@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concord</title>
+    <!-- Website Icon -->
+    <link rel="icon" href="./public/images/skyfood-1-white-1.png" />
+    <!-- Font Awesome CSS-->
+    <link
+      rel="stylesheet"
+      href="./Static/fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./Static/CSS/style.css" />
+    <!-- Bootstrap file -->
+    <link rel="stylesheet" href="./Static/Bootstrap/css/bootstrap.min.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="home_page">
+        <!--First sec  -->
+
+        <!-- navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="./">
+              <img src="./public/images/black-1mainLogo43.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style="border: none !important"
+            >
+              <img src="./public/images/ghjhgjghj65.svg" alt="" />
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul id="nav_item" class="navbar-nav m-auto mb-lg-0">
+                <li id="Home_rout" class="nav-item activation ms-4">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Home
+                    <p></p
+                  ></a>
+                </li>
+
+                <li id="About_rout" class="nav-item ms-4">
+                  <a class="nav-link" href="./about.html"
+                    >About Us
+                    <p></p
+                  ></a>
+                </li>
+
+
+
+                <li id="Products_rout" class="nav-item dropdown ms-4">
+                  <a id="dsdsdsd23" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+
+                    <li id="Products_rout2"class="dropdown-item">
+                      <a class=" dropdown-item" href="./products.html"
+                        >Products
+                        <p></p
+                      ></a>
+                    </li>
+
+                    <li class="dropdown-item" id="Category_rout">
+                      <a class=" dropdown-item" href="./category.html"
+                        >Category
+                        <p></p
+                      ></a>
+                    </li>
+
+                  </ul>
+                </li>
+
+
+
+                <li id="Repair_rout" class="nav-item ms-4">
+                  <a class="nav-link" href="./repair.html"
+                    >Repair
+                    <p></p
+                  ></a>
+                </li>
+
+                <li id="Contact_rout" class="nav-item ms-4">
+                  <a class="nav-link" href="./contact.html"
+                    >Contact Us
+                    <p></p
+                  ></a>
+                </li>
+              </ul>
+              <div id="cart_sign-part">
+                <div id="cart_comp">
+                  <span>1</span>
+                  <img src="./Public/images/vectorcart56346.svg" alt="" />
+                </div>
+                <div id="sign_ico">
+                  <img src="./Public/Images/vectoraccount43.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+
+<!-- main content -->
+<div>
+    <br /><br /><br /><br /><br />
+
+
+    <div class="container">
+        <h1 id="cart_page_tit" class="hiddden">Cart</h1>
+
+        <div id="Breadcrumb" class="d-flex justify-content-between">
+            <div class="hidddenright d-flex align-items-center"><p class="mt-3 me-3">1</p> <span style="color: #3470AB;" class="me-2">Cart </span> <img src="./public/images/iconsax-dgfdlinear-arrowright.svg" alt=""></div>
+            <div class="hiddden d-flex align-items-center"><p class="mt-3 me-3">2</p> <span class="me-2">Shipping information </span> <img src="./public/images/iconsax-dgfdlinear-arrowright.svg" alt=""></div>
+            <div class="hidddenleft d-flex align-items-center"><p class="mt-3 me-3">3</p> <span class="me-2">Review</span></div>
+        </div>
+    </div>
+
+    <br /><br /><br /><br /><br /><br />
+    <div class="">
+      <div class="container row m-auto">
+
+        <div class="col-lg-8 col-md-7 col-sm-12 col-12  m-auto"> 
+
+          <div  id="num_of_selected_pro" class="hidddenright row d-flex">
+          <img class="col-6 m-auto" id="select-img_ele" src="./public/images/tn-14gdfgdf-w-1.png">
+          <div class="col-6 m-auto">
+            <h1 id="ele_tit_">DOUBLE DOOR DEFROST</h1>
+
+
+            <div id="rating_part342" class="d-flex justify-content-between align-items-center">
+            <div id="price-discount" class="d-flex gap-3">
+              <h1
+                style="
+                  color: var(--d-9-d-9-d-9, #212121);
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: normal;
+                "
+              >
+                1000$
+              </h1>
+              <h1
+                style="
+                  color: #969696;
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: normal;
+                  text-decoration: line-through;
+                "
+              >
+                1200$
+              </h1>
+            </div>
+
+            <div id="num_ewd38r3" class="pb-3 d-flex gap-3">
+              4.2 <img src="./Public/images/vectdgdgdor.svg" alt="" />
+            </div>
+
+          </div>
+
+          <div id="plus_mince" class="d-flex align-items-center gap-3">
+            <input class="me-2" type="button" value="-" id="decrease">
+            <input type="number" min="1" max="10" value="1" id="num_of_operation" disabled>
+            <input type="button" value="+" id="increase">
+          </div>
+
+          <img id="delet_pro" src="./public/images/icons-8dhgdhdelete-11.svg" alt="">
+          </div>
+        </div>
+
+        <br><br>
+        <div  id="num_of_selected_pro" class="hidddenright row d-flex">
+          <img class="col-6 m-auto" id="select-img_ele" src="./public/images/tn-14gdfgdf-w-1.png">
+          <div class="col-6 m-auto">
+            <h1 id="ele_tit_">DOUBLE DOOR DEFROST</h1>
+
+
+            <div id="rating_part342" class="d-flex justify-content-between align-items-center">
+            <div id="price-discount" class="d-flex gap-3">
+              <h1
+                style="
+                  color: var(--d-9-d-9-d-9, #212121);
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: normal;
+                "
+              >
+                1000$
+              </h1>
+              <h1
+                style="
+                  color: #969696;
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: normal;
+                  text-decoration: line-through;
+                "
+              >
+                1200$
+              </h1>
+            </div>
+
+            <div id="num_ewd38r3" class="pb-3 d-flex gap-3">
+              4.2 <img src="./Public/images/vectdgdgdor.svg" alt="" />
+            </div>
+
+          </div>
+
+          <div id="plus_mince" class="d-flex align-items-center gap-3">
+            <input class="me-2" type="button" value="-" id="decrease1">
+            <input type="number" min="1" max="10" value="1" id="num_of_operation" disabled>
+            <input type="button" value="+" id="increase1">
+          </div>
+
+          <img id="delet_pro" src="./public/images/icons-8dhgdhdelete-11.svg" alt="">
+          </div>
+        </div>
+
+
+
+        <br><br>
+        <div  id="num_of_selected_pro" class="hidddenright row d-flex">
+          <img class="col-6 m-auto" id="select-img_ele" src="./public/images/tn-14gdfgdf-w-1.png">
+          <div class="col-6 m-auto">
+            <h1 id="ele_tit_">DOUBLE DOOR DEFROST</h1>
+
+
+            <div id="rating_part342" class="d-flex justify-content-between align-items-center">
+            <div id="price-discount" class="d-flex gap-3">
+              <h1
+                style="
+                  color: var(--d-9-d-9-d-9, #212121);
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: normal;
+                "
+              >
+                1000$
+              </h1>
+              <h1
+                style="
+                  color: #969696;
+                  font-family: Poppins;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: normal;
+                  text-decoration: line-through;
+                "
+              >
+                1200$
+              </h1>
+            </div>
+
+            <div id="num_ewd38r3" class="pb-3 d-flex gap-3">
+              4.2 <img src="./Public/images/vectdgdgdor.svg" alt="" />
+            </div>
+
+          </div>
+
+          <div id="plus_mince" class="d-flex align-items-center gap-3">
+            <input class="me-2" type="button" value="-" id="decrease2">
+            <input type="number" min="1" max="10" value="1" id="num_of_operation" disabled>
+            <input type="button" value="+" id="increase2">
+          </div>
+
+          <img id="delet_pro" src="./public/images/icons-8dhgdhdelete-11.svg" alt="">
+          </div>
+        </div>
+
+
+
+        </div>
+      
+
+
+
+      <div id="summary_sec" class="hidddenleft col-lg-4 col-md-5 col-sm-12 col-12">
+        <h1>Summary</h1>
+        <div class="d-flex justify-content-between mt-5 pt-5"><p>products</p> <span>3</span></div>
+        <div class="d-flex justify-content-between mt-3"><p>Price details</p> <span>3000$</span></div>
+        <div class="d-flex justify-content-between mt-3"><p>Discount</p> <span>150$</span></div>
+        <div class="d-flex justify-content-between mt-3 mb-5 pb-5"><p>Total</p> <span>2850$</span></div>
+
+        <a href="./shipping.html"><button>Next</button></a>
+      </div>
+
+
+    </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br /><br />
+        <br />
+                <!-- Footer -->
+                <div id="footer_container">
+
+                    <div class="container row m-auto">
+                    <ul class="col-lg-3 col-md-6 col-sm-6 col-12 mt-4">
+                      <img class="w-100" src="./Public/images/whihghfghte-11.png" alt="">
+                      <br/><br>
+                      <p>Concord is one of the largest Manufactures in the Middle East specialized in themanufacturing of Refrigerators, Freezers and Bottle coolers.</p>
+                    <br>
+                      <h6 class="mb-3">Social:</h6>
+                    <div class="d-flex gap-3">
+                      <a href=""><img class="w-100" src="./Public/images/vectgjgghor.svg" alt=""></a>
+                      <a href=""><img class="w-100" src="./Public/images/entypo-social-linkedinkhk-with-circle.svg" alt=""></a>
+                      <a href=""><img class="w-100" src="./Public/images/entypo-social-twittergfh-with-circle.svg" alt=""></a>
+                    </div>
+                    </ul>
+                    <ul class="col-lg-3 col-md-6 col-sm-6 col-12 mt-4">
+                      <li><h6>Quick Link's </h6></li>
+                      <li><a href="">Home</a></li>
+                      <li><a href="">Products </a></li>
+                      <li><a href="">Repair</a></li>
+                      <li><a href="">About us</a></li>
+                      <li><a href="">Conact us</a></li>
+                    </ul>
+                    <ul class="col-lg-3 col-md-6 col-sm-6 col-12 mt-4">
+                      <li><h6>category</h6></li>
+                      <li><a href="">BOTTLE COOLERS</a></li>
+                      <li><a href="">AIR CONDITIONERS</a></li>
+                      <li><a href="">DOUBLE DOOR DEFROST</a></li>
+                      <li><a href="">GAS COOKERS</a></li>
+                      <li><a href="">FREEZERS</a></li>
+                    </ul>
+                    <ul class="col-lg-3 col-md-6 col-sm-6 col-12 mt-4">
+                      <p>Got Questions? Call us 24/7!00961-76-622149Contact Info Lebanon, Beirut - Verdun-Rashid Karameh str. , Panorama Bldg.</p>
+                      <form action="">
+                        <label
+                          style="
+                            color: #fff;
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                          "
+                          for="email_inline"
+                        >
+                          Subscribe us</label
+                        >
+                        <br />
+                      
+                    <div class="d-flex align-items-center">
+                      <input
+                      id="email_inline"
+                      class="form-control"
+                      type="email"
+                      placeholder="Enter Email"
+                    />
+                    <label for="email_inline">
+                      <img
+                      id="email-img_sm"
+                      src="./Public/images/groupjfjfgjfg-1.svg"
+                    />
+                    </label>
+                    </div>
+                        <br />
+                        <button id="last_btn_emial_footer">Subscribe</button>
+                      </form>
+                    
+                    </ul>
+                    </div>
+          
+                  </div>
+          
+          
+          
+          
+                </div>
+              </div>
+          
+              <!-- Font Awesome JS -->
+              <script src="./Static/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+              <!-- JS File -->
+              <script src="./Static/JS/app.js"></script>
+              <!-- Bootstrap file-->
+              <script src="./Static/Bootstrap/js/bootstrap.bundle.min.js"></script>
+            </body>
+          </html>
